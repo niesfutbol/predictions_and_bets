@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 conn = requests.get("http://104.248.109.197:8383/v1/predictions")
-bets = pd.DataFrame.from_dict(conn.json())
+bets = pd.DataFrame.from_dict(conn.json()).sort(['league', 'date'])
 colname = ['home_team', 'home', 'draw', 'away', 'away_team', 'round', 'date', 'league']
 # ----------------- game start --------
 st.dataframe(bets[colname], hide_index=True)
