@@ -20,4 +20,11 @@ En las columnas 3 tenemos las probabilidades de que gane el local, el empate o l
 )
 st.dataframe(to_show.rename(columns=to_rename), hide_index=True)
 
+st.write(
+  """
+  Encuentra la descripción completa y algunos consejos de apuestas en la nota "[¿Cómo utilizamos el tipster de nies?🤑
+](https://www.nies.futbol/2024/01/como-utilizamos-el-tipster-de-nies.html)".
+  """
+)
+
 st.markdown("Made with 💖 by [nies.futbol](https://nies.futbol)")
