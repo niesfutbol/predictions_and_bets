@@ -13,3 +13,7 @@ docker-compose up app
 ``` sh
 docker-compose run nies
 ```
+
+### Preview
+![image](https://github.com/niesfutbol/predictions_and_bets/assets/35377740/9ca9b68e-ad0c-4edc-911c-3434a0cdbccd)
+
