@@ -3,7 +3,8 @@ on:
   schedule:
     - cron: '40 7 * * */5'
 
-empty_commit:
+jobs:
+  empty_commit:
     runs-on: ubuntu-latest
 
     steps:
