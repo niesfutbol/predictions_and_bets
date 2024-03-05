@@ -22,8 +22,8 @@ st.dataframe(to_show.rename(columns=to_rename), hide_index=True)
 
 st.write(
   """
-  Encuentra la descripción completa y algunos consejos de apuestas en la nota "[¿Cómo utilizamos el tipster de nies?🤑
-](https://www.nies.futbol/2024/01/como-utilizamos-el-tipster-de-nies.html)".
+  Encuentra la descripción completa y algunos consejos de apuestas en la nota "[El valor en las puestas de fútbol
+](https://www.nies.futbol/2024/01/el-valor-en-las-puestas-de-futbol.html)".
   """
 )
 
