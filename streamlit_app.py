@@ -10,7 +10,7 @@ to_rename = {k: v for (k, v) in zip(colname, new_names)}
 # ----------------- game start --------
 to_show = bets[colname].sort_values(by=["date", "league"])
 
-PAGE_TITLE = "Tipster"
+PAGE_TITLE = "Tipster | NIES"
 PAGE_ICON = "🤑"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
