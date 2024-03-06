@@ -9,6 +9,11 @@ new_names = ["Local", "Gana local", "Empate", "Gana visita", "Visita", "Jornada"
 to_rename = {k: v for (k, v) in zip(colname, new_names)}
 # ----------------- game start --------
 to_show = bets[colname].sort_values(by=["date", "league"])
+
+PAGE_TITLE = "Tipster"
+PAGE_ICON = "🤑"
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
 st.write(
   """
   En la figura de abajo podemos ver un ejemplo de las predicciones hechas por el modelo de [nies](https://www.nies.futbol/).
